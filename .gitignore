@@ -35,3 +35,63 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Images # 
+######################
+*.jpg
+*.gif
+*.png
+*.svg
+*.ico
+
+# Video #
+######################
+*.wmv
+*.mpg
+*.mpeg
+*.mp4
+*.mov
+*.flv
+*.avi
+*.ogv
+*.ogg
+*.webm
+
+# Audio #
+######################
+*.wav
+*.mp3
+*.wma
+
+# Fonts #
+######################
+*.eot
+*.ttf
+*.woff
+
+# IDE #
+######################
+.classpath
+.project
+.settings
+.idea
+.metadata
+*.iml
+*.ipr
+
+# Compressed Files #
+######################
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Inrelevant Documentations #
+######################
+*.pdf
+*.doc
+*.docx
+
+# Temprory Files Created By Editors #
+######################
+*~
