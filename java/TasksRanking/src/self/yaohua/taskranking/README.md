@@ -1,3 +1,4 @@
+<center>Introductions to TasksRanking Algorithm</center>
 Introductions to TasksRanking Algorithm {style="text-align:center"}
 <h1>Introductions to TasksRanking Algorithm {style="text-align:center"}</h1>
 <h2>And how it guides my daily life!</h2> {style="text-align:center"}
