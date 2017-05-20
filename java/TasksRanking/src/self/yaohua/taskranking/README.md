@@ -50,14 +50,13 @@ The values of revenues of Goals, costs of Tasks, and impacts of each task on eac
 my <a href="https://en.wikipedia.org/wiki/Human_brain" target="_blank">HUMAN BRAIN</a>!
 <br>
 I tend to set values of revenues and costs within [0, 10], and values of impacts within [0, 1] based on my own judgement of
-importance of Goals, hardship of Tasks, and relationships between them.
+importance of Goals, hardship of Tasks, and relationships between Goals and Tasks.
 <br>
-The values themselves are meaningless, but it helps me to make comparison between them. So when I'm overwhelmed by objectives, 
-I can figure out my priorities very quick by only compare and adjust the revenues, costs, and impacts.
+The values helps me to make comparison between Goals and Tasks. So when I'm overwhelmed by objectives, 
+I can figure out my priorities very quick by only compare and adjust the values.
 </p>
 <h3>How it changes my life?</h3>
 <p>
-
 In my real life, I have 19 goals and 41 tasks in total. I really could not figure out my priority easily and make daily plan. So TasksRanking helps me!<br>
 By reading results of TasksRanking while making daily plan, I never feel stress even when
 a lot of objectives coming to my life concurrently! As a lover of Math, I'm so happy to see my loved Math helps me everyday!!!
