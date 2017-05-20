@@ -13,7 +13,7 @@ import java.util.Map.Entry;
  */
 public class TasksRanking {
 	public static void main(String[] args) {
-//		reverseSortGoalsByValue();
+//		reverseSortGoalsByRevenue();
 //		sortTasksByCost();
 //		listGoalsImpactedByTasks();
 		tasksRanking();
@@ -26,30 +26,30 @@ public class TasksRanking {
 		Map<String, Map<String, Double>> tasksImpactsOnGoals = tasksImpactsOnGoals();
 		
 		// TODO(yaohuazhuo): Fix the bug when cost is negative.
-		// Calculate task and it's value.
-		// task, value.
-		Map<String, Double> tasksValue = new HashMap<String, Double>();
+		// Calculate task and it's revenue.
+		// task, revenue.
+		Map<String, Double> tasksRevenue = new HashMap<String, Double>();
 		for (Map.Entry<String, Goal> goalElement : Goal.goals.entrySet()) {
 			Map<String, Double> impactingTasks = tasksImpactsOnGoals.get(goalElement.getKey());
 			for (Map.Entry<String, Double> taskElement : impactingTasks.entrySet()) {
-				Double originalValue = tasksValue.get(taskElement.getKey());
-				Double currentValue = goalElement
+				Double originalRevenue = tasksRevenue.get(taskElement.getKey());
+				Double currentRevenue = goalElement
 						.getValue()
-						.value * 
+						.revenue * 
 						tasksImpactsOnGoals
 						.get(goalElement
 								.getKey())
 						.get(taskElement
 								.getKey());
-				tasksValue.put(taskElement.getKey(), originalValue == null ? currentValue : originalValue + currentValue);
+				tasksRevenue.put(taskElement.getKey(), originalRevenue == null ? currentRevenue : originalRevenue + currentRevenue);
 			}
 		}
-		for (Map.Entry<String, Double> e : tasksValue.entrySet()) {
+		for (Map.Entry<String, Double> e : tasksRevenue.entrySet()) {
 			e.setValue(e.getValue() - Task.tasks.get(e.getKey()).cost);
 		}
 		
 		// Ranking.
-		List<Map.Entry<String, Double>> results = new LinkedList<>(tasksValue.entrySet());
+		List<Map.Entry<String, Double>> results = new LinkedList<>(tasksRevenue.entrySet());
 		Collections.sort(results, new Comparator<Map.Entry<String, Double>>() {
 			@Override
 			public int compare(Entry<String, Double> arg0, Entry<String, Double> arg1) {
@@ -59,9 +59,9 @@ public class TasksRanking {
 
 		// Output.
 		
-		// Task id, value
+		// Task id, revenue
 		for (Map.Entry<String, Double> e : results) {
-			output(0, "task: " + e.getKey() + "; value: " + e.getValue() + "; cost:" + Task.tasks.get(e.getKey()).cost + "; description: " + Task.tasks.get(e.getKey()).description);
+			output(0, "task: " + e.getKey() + "; revenue: " + e.getValue() + "; cost:" + Task.tasks.get(e.getKey()).cost + "; description: " + Task.tasks.get(e.getKey()).description);
 			
 			// Print all impacted goals and impacted portions.
 			
@@ -70,7 +70,7 @@ public class TasksRanking {
 			Set<String> impactedGoals = Task.tasks.get(e.getKey()).impactsToGoals.keySet();
 			for (String impactedGoal : impactedGoals) {
 				double impactPortion = tasksImpactsOnGoals.get(impactedGoal).get(e.getKey());
-				output(1, "impact '" + impactedGoal + ":" + Goal.goals.get(impactedGoal).value + "' for "+ impactPortion);
+				output(1, "impact '" + impactedGoal + ":" + Goal.goals.get(impactedGoal).revenue + "' for "+ impactPortion);
 			}
 			
 			
@@ -78,18 +78,18 @@ public class TasksRanking {
 		}
 	}
 	
-	private static void reverseSortGoalsByValue() {
-		o("\n======================================= reverseSortGoalsByValue =======================================");
+	private static void reverseSortGoalsByRevenue() {
+		o("\n======================================= reverseSortGoalsByRevenue =======================================");
 		
 		List<Entry<String, Goal>> goals = new LinkedList<>(Goal.goals.entrySet());
 		Collections.sort(goals, new Comparator<Entry<String, Goal>>() {
 			@Override
 			public int compare(Entry<String, Goal> arg0, Entry<String, Goal> arg1) {
-				return arg1.getValue().value > arg0.getValue().value ? 1 : -1;
+				return arg1.getValue().revenue > arg0.getValue().revenue ? 1 : -1;
 			}
 		});
 		for (Entry<String, Goal> e : goals) {
-			output(0, e.getKey() + " : " + e.getValue().value);
+			output(0, e.getKey() + " : " + e.getValue().revenue);
 			output(1, e.getValue().description);
 			o("");
 		}
@@ -122,7 +122,7 @@ public class TasksRanking {
 		Collections.sort(sortedTasksImpactsOnGoals, new Comparator<Entry<String, Map<String, Double>>>() {
 			@Override
 			public int compare(Entry<String, Map<String, Double>> o1, Entry<String, Map<String, Double>> o2) {
-				return Goal.goals.get(o1.getKey()).value > Goal.goals.get(o2.getKey()).value ? -1 : 1;
+				return Goal.goals.get(o1.getKey()).revenue > Goal.goals.get(o2.getKey()).revenue ? -1 : 1;
 			}
 		});
 		Comparator<Entry<String, Double>> tasksImpactComparator = new Comparator<Entry<String, Double>>() {
@@ -133,7 +133,7 @@ public class TasksRanking {
 		};
 		for (Entry<String, Map<String, Double>> e : sortedTasksImpactsOnGoals) {
 			Goal goal = Goal.goals.get(e.getKey());
-			output(0, "goal: " + e.getKey() +"; value: " + goal.value + "; description: " + goal.description);
+			output(0, "goal: " + e.getKey() +"; revenue: " + goal.revenue + "; description: " + goal.description);
 			List<Entry<String, Double>> impactingTasks = new LinkedList<>(e.getValue().entrySet());
 			Collections.sort(impactingTasks, tasksImpactComparator);
 			for (Entry<String, Double> e2 : impactingTasks) {

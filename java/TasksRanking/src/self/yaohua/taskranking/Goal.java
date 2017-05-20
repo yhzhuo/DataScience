@@ -6,11 +6,11 @@ import com.google.common.collect.ImmutableMap;
 
 public class Goal {
 	public String description;
-	public Double value;
+	public Double revenue;
 	
-	public Goal(Double value, String description) {
+	public Goal(Double revenue, String description) {
 		this.description = description;
-		this.value = value;
+		this.revenue = revenue;
 	}
 	
 	// Ids of all goals.
