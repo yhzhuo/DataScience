@@ -43,7 +43,7 @@ Pretty simple and amazing right? This means as a young man my priorities are:<br
 <p>
 <!-- Explain the algorithm and include the Math formula. -->
 </p>
-<h3>How comes the values?</h3>
+<h3>How the value comes?</h3>
 <p>
 The values of revenues of Goals, costs of Tasks, and impacts of each task on each goal come from the World's most advanced 
 <a href="https://en.wikipedia.org/wiki/Artificial_neural_network" target="_blank">Neural Network</a> model -- 
