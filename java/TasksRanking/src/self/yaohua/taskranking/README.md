@@ -3,6 +3,25 @@
 <h3>Sample output!</h3>
 <p>
 <!-- Paste the output from sample fake data. Don't leak your privacy! -->
+```
+task: ensureQualityAndSpeedOfEachTask; revenue: 3.864224137931034; cost:3.0; description: Ensure the quality, quantity, and speed of each tasks you finish, and never rush.
+	impact 'haveGoodCareer:10.0' for 0.6551724137931034
+	impact 'formStableAndSolidSocialGroups:5.0' for 0.0625
+task: talkMoreWithTeamMembersAboutTheirTasks; revenue: 2.870150862068966; cost:1.75; description: Talk with others about there tasks, especially the ones collaborate closely with you. Know scope of each tasks and each ones tasks, know each one's responsibility, communicate first before working on other's responsibilities.
+	impact 'haveGoodCareer:10.0' for 0.3448275862068966
+	impact 'formStableAndSolidSocialGroups:5.0' for 0.234375
+task: dateGirls; revenue: 2.180803571428571; cost:2.75; description: Date girls with the goal of getting married. Try to learn from them and know their ideas.
+	impact 'gettingMarried:9.0' for 0.45238095238095233
+	impact 'formStableAndSolidSocialGroups:5.0' for 0.171875
+task: learnCooking; revenue: 0.6696428571428572; cost:2.0; description: Learn to cook good, nice, and delicious food.
+	impact 'gettingMarried:9.0' for 0.2619047619047619
+	impact 'formStableAndSolidSocialGroups:5.0' for 0.0625
+task: attendSocialActivities; revenue: 0.6629464285714279; cost:2.75; description: Attend off line social activities received from various sources.
+	impact 'gettingMarried:9.0' for 0.21428571428571427
+	impact 'formStableAndSolidSocialGroups:5.0' for 0.29687499999999994
+task: alwaysReadSocialInformation; revenue: -1.2477678571428572; cost:2.75; description: Form the habit of always read social related information various channels, and extract valuable information relate to social activities.
+	impact 'gettingMarried:9.0' for 0.07142857142857142
+	impact 'formStableAndSolidSocialGroups:5.0' for 0.171875
 </p>
 <h3>Why it's useful?</h3>
 <!-- Explain why as a young man figuring priority is important. -->
