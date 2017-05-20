@@ -22,6 +22,7 @@ task: attendSocialActivities; revenue: 0.6629464285714279; cost:2.75; descriptio
 task: alwaysReadSocialInformation; revenue: -1.2477678571428572; cost:2.75; description: Form the habit of always read social related information various channels, and extract valuable information relate to social activities.
 	impact 'gettingMarried:9.0' for 0.07142857142857142
 	impact 'formStableAndSolidSocialGroups:5.0' for 0.171875
+```
 </p>
 <h3>Why it's useful?</h3>
 <!-- Explain why as a young man figuring priority is important. -->
