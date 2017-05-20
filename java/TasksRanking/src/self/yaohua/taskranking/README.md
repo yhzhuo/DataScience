@@ -1,8 +1,16 @@
 <h1>Introductions to TasksRanking Algorithm</h1>
 <h2>And how it guides my daily life!</h2>
+<h3>What is it?</h3>
+<p>
+<!-- Explain why as a young man figuring priority is important. -->
+TasksRanking is a simple Mathmatical model that ranks tasks based on their priorities.<br>
+Firstly, TasksRanking calculates the profit of tasks by the the cost of each task, revenue of each goal, what goals each task impacts, and how intense each task impact each goal.
+Then, TasksRanking regards tasks with high profit as high priorities, and reversely sort tasks by their profit.
+</p>
 <h3>Sample output!</h3>
 <p>
 <!-- Paste the output from sample fake data. Don't leak your privacy! -->
+The log below is generated from sample data in the code:
 <pre>
 task: ensureQualityAndSpeedOfEachTask; revenue: 3.864224137931034; cost:3.0; description: Ensure the quality, quantity, and speed of each tasks you finish, and never rush.
 	impact 'haveGoodCareer:10.0' for 0.6551724137931034
@@ -23,9 +31,14 @@ task: alwaysReadSocialInformation; revenue: -1.2477678571428572; cost:2.75; desc
 	impact 'gettingMarried:9.0' for 0.07142857142857142
 	impact 'formStableAndSolidSocialGroups:5.0' for 0.171875
 </pre>
+Pretty simple and amazing right? This means as a young man my priorities are:
+1. Ensure quality and speed of each task at my company<b>
+2. Talk more with team members about their tasks
+3. Date girls
+4. Learn cooking
+5. Attend social activities
+6. Always read social information
 </p>
-<h3>Why it's useful?</h3>
-<!-- Explain why as a young man figuring priority is important. -->
 <h3>How it works?</h3>
 <p>
 <!-- Explain the algorithm and include the Math formula. -->
@@ -44,6 +57,8 @@ I can figure out my priorities very quick by only compare and adjust the revenue
 </p>
 <h3>How it changes my life?</h3>
 <p>
+
+In my real life, I have 19 goals and 41 tasks in total. I really could not figure out my priority easily and make daily plan. So TasksRanking helps me!<br>
 I formed the habit of making daily plan everyday long long ago. But sometimes things get out of my expectations as I make plans 
 without figuring out my priorities. But now, by reading results of TasksRanking while making daily plan, I never feel stress even
 a lot of objectives coming to my life concurrently! As a lover of Math, I'm so happy to see my loved Math helps me everyday!!!
