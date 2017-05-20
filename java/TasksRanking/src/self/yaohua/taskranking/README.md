@@ -11,8 +11,8 @@
 <h3>How comes the values?</h3>
 <p>
 The values of revenues of Goals, costs of Tasks, and impacts of each task on each goal come from the World's most advanced 
-<a href="https://en.wikipedia.org/wiki/Artificial_neural_network">Neural Network</a> model -- 
-my <a href="https://en.wikipedia.org/wiki/Human_brain">HUMAN BRAIN</a>!
+<a href="https://en.wikipedia.org/wiki/Artificial_neural_network" target="_blank">Neural Network</a> model -- 
+my <a href="https://en.wikipedia.org/wiki/Human_brain" target="_blank">HUMAN BRAIN</a>!
 <br>
 I tend to set values of revenues and costs within [0, 10], and values of impacts within [0, 1] based on my own judgement of
 importance of Goals, hardship of Tasks, and relationships between them.
