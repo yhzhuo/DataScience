@@ -4,7 +4,7 @@
 <p>
 <!-- Explain why as a young man figuring priority is important. -->
 TasksRanking is a simple Mathmatical model that ranks tasks based on their priorities.<br>
-Firstly, TasksRanking calculates the profit of tasks by the the cost of each task, revenue of each goal, what goals each task impacts, and how intense each task impact each goal.
+Firstly, TasksRanking calculates the profit of tasks by the the cost of each task, revenue of each goal, what goals each task impacts, and how intense each task impact each goal.<br>
 Then, TasksRanking regards tasks with high profit as high priorities, and reversely sort tasks by their profit.
 </p>
 <h3>Sample output!</h3>
@@ -59,8 +59,7 @@ I can figure out my priorities very quick by only compare and adjust the revenue
 <p>
 
 In my real life, I have 19 goals and 41 tasks in total. I really could not figure out my priority easily and make daily plan. So TasksRanking helps me!<br>
-I formed the habit of making daily plan everyday long long ago. But sometimes things get out of my expectations as I make plans 
-without figuring out my priorities. But now, by reading results of TasksRanking while making daily plan, I never feel stress even
+By reading results of TasksRanking while making daily plan, I never feel stress even
 a lot of objectives coming to my life concurrently! As a lover of Math, I'm so happy to see my loved Math helps me everyday!!!
 </p>
 
