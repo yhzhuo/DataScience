@@ -4,8 +4,8 @@
 <p>
 <!-- Explain why as a young man figuring priority is important. -->
 TasksRanking is a simple Mathmatical model that ranks tasks based on their priorities.<br>
-Firstly, TasksRanking calculates the profit of tasks by the the cost of each task, revenue of each goal, what goals each task impacts, and how intense each task impact each goal.<br>
-Then, TasksRanking regards tasks with high profit as high priorities, and reversely sort tasks by their profit.
+Firstly, TasksRanking calculates the profit of tasks by the the cost of each task, revenue of each goal, what goals each task impacts, and how intense each task impacts each goal.<br>
+Then, TasksRanking regards tasks with high profit as high priority, and reversely sort tasks by their profit.
 </p>
 <h3>Sample output!</h3>
 <p>
