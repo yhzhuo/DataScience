@@ -31,13 +31,13 @@ task: alwaysReadSocialInformation; revenue: -1.2477678571428572; cost:2.75; desc
 	impact 'gettingMarried:9.0' for 0.07142857142857142
 	impact 'formStableAndSolidSocialGroups:5.0' for 0.171875
 </pre>
-Pretty simple and amazing right? This means as a young man my priorities are:
-1. Ensure quality and speed of each task at my company<b>
-2. Talk more with team members about their tasks
-3. Date girls
-4. Learn cooking
-5. Attend social activities
-6. Always read social information
+Pretty simple and amazing right? This means as a young man my priorities are:<br>
+1. Ensure quality and speed of each task at my company<br>
+2. Talk more with team members about their tasks<br>
+3. Date girls<br>
+4. Learn cooking<br>
+5. Attend social activities<br>
+6. Always read social information<br>
 </p>
 <h3>How it works?</h3>
 <p>
