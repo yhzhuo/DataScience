@@ -1,7 +1,9 @@
-<center>
-<h1>Introductions to TasksRanking Algorithm</h1>
-<h2>And how it guides my daily life!</h2>
-</center>
+<h1 style="text-align: center;">Introductions to TasksRanking Algorithm</h1>
+<h2 style="text-align: center;">And how it guides my daily life!</h2>
+<h3>Sample output!</h3>
+<p>
+<!-- Paste the output from sample fake data. Don't leak your privacy! -->
+</p>
 <h3>Why it's useful?</h3>
 <!-- Explain why as a young man figuring priority is important. -->
 <h3>How it works?</h3>
