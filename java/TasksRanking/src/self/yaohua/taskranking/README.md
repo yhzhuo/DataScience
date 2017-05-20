@@ -29,4 +29,4 @@ without figuring out my priorities. But now, by reading results of TasksRanking 
 a lot of objectives coming to my life concurrently! As a lover of Math, I'm so happy to see my loved Math helps me everyday!!!
 </p>
 
-<h1>Hopefully it also benefits your life. Enjoy It!</h1>
+<h1>Enjoy It!</h1>
