@@ -1,6 +1,5 @@
-<center>Introductions to TasksRanking Algorithm</center>
-<h1>Introductions to TasksRanking Algorithm {style="text-align:center"}</h1>
-<h2>And how it guides my daily life!</h2> {style="text-align:center"}
+<h1>Introductions to TasksRanking Algorithm</h1>
+<h2>And how it guides my daily life!</h2>
 <h3>Sample output!</h3>
 <p>
 <!-- Paste the output from sample fake data. Don't leak your privacy! -->
