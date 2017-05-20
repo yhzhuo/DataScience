@@ -3,7 +3,7 @@
 <h3>Sample output!</h3>
 <p>
 <!-- Paste the output from sample fake data. Don't leak your privacy! -->
-```
+<pre>
 task: ensureQualityAndSpeedOfEachTask; revenue: 3.864224137931034; cost:3.0; description: Ensure the quality, quantity, and speed of each tasks you finish, and never rush.
 	impact 'haveGoodCareer:10.0' for 0.6551724137931034
 	impact 'formStableAndSolidSocialGroups:5.0' for 0.0625
@@ -22,7 +22,7 @@ task: attendSocialActivities; revenue: 0.6629464285714279; cost:2.75; descriptio
 task: alwaysReadSocialInformation; revenue: -1.2477678571428572; cost:2.75; description: Form the habit of always read social related information various channels, and extract valuable information relate to social activities.
 	impact 'gettingMarried:9.0' for 0.07142857142857142
 	impact 'formStableAndSolidSocialGroups:5.0' for 0.171875
-```
+</pre>
 </p>
 <h3>Why it's useful?</h3>
 <!-- Explain why as a young man figuring priority is important. -->
