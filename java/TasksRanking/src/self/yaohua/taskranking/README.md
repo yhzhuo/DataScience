@@ -70,7 +70,9 @@ I can still figure out my priorities very quick by only compare and adjust those
 <p>
 In my real life, I have 19 goals and 41 tasks in total. I really can not figure out my priority list easily and make daily plan. So TasksRanking helps me!<br>
 By reading results of TasksRanking while making daily plan, I never feel stress even when
-a lot of objectives come to my life concurrently! As a lover of Math, I'm so happy to see my loved Math helps me everyday!!!
+a lot of objectives come to my life concurrently!<br>
+Also, TasksRanking explains the ranking results in number. It explains my motivations to me when I don't understand my actions in the past.<br> 
+As a lover of Math, I'm so happy to see my loved Math helps me everyday!!!
 </p>
 
 <h1>Enjoy It!</h1>
