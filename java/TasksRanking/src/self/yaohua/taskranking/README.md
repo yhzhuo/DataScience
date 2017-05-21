@@ -1,11 +1,11 @@
-<h1>Introductions to TasksRanking Algorithm</h1>
+<h1>Introduction to TasksRanking Algorithm</h1>
 <h2>And how it guides my daily life!</h2>
 <h3>What is it?</h3>
 <p>
 <!-- Explain why as a young man figuring priority is important. -->
 TasksRanking is a simple Mathmatical model that ranks tasks based on their priorities.<br>
-Firstly, TasksRanking calculates the profit of tasks by the the cost of each task, revenue of each goal, what goals each task impacts, and how intense each task impacts each goal.<br>
-Then, TasksRanking regards tasks with high profit as high priority, and reversely sort tasks by their profit.
+Firstly, TasksRanking calculates the profit of tasks by the the cost of each task, revenue of each goal, and how each task impacts each goal.<br>
+Then, TasksRanking regards tasks with high profit as high priorities, and reversely sort tasks by their profit.
 </p>
 <h3>Sample output!</h3>
 <p>
@@ -31,7 +31,7 @@ task: alwaysReadSocialInformation; revenue: -1.2477678571428572; cost:2.75; desc
 	impact 'gettingMarried:9.0' for 0.07142857142857142
 	impact 'formStableAndSolidSocialGroups:5.0' for 0.171875
 </pre>
-Pretty simple and amazing right? This means as a young man my priorities are:<br>
+Pretty simple and amazing right? This means as a young man my priority list is:<br>
 1. Ensure quality and speed of each task at my company<br>
 2. Talk more with team members about their tasks<br>
 3. Date girls<br>
@@ -54,7 +54,7 @@ p(t): profit gained by performing task t<br>
 Then profit of ith task t_i is:<br>
 <img src="CalculateProfitOfTask.png" alt="Unable to show formula" width="400px"/>
 </p>
-<h3>How the value comes?</h3>
+<h3>How the values come?</h3>
 <p>
 The values of revenues of Goals, costs of Tasks, and impacts of each task on each goal come from the World's most advanced 
 <a href="https://en.wikipedia.org/wiki/Artificial_neural_network" target="_blank">Neural Network</a> model -- 
@@ -63,14 +63,14 @@ my <a href="https://en.wikipedia.org/wiki/Human_brain" target="_blank">HUMAN BRA
 I tend to set values of revenues and costs within [0, 10], and values of impacts within [0, 1] based on my own judgement of
 importance of Goals, hardship of Tasks, and relationships between Goals and Tasks.
 <br>
-The values helps me to make comparison between Goals and Tasks. So when I'm overwhelmed by objectives, 
-I can figure out my priorities very quick by only compare and adjust the values.
+The values help me to make comparison between all the Goals and all the Tasks. So when I'm overwhelmed by objectives, 
+I can still figure out my priorities very quick by only compare and adjust those values and run my algorithm!
 </p>
 <h3>How it changes my life?</h3>
 <p>
-In my real life, I have 19 goals and 41 tasks in total. I really could not figure out my priority easily and make daily plan. So TasksRanking helps me!<br>
+In my real life, I have 19 goals and 41 tasks in total. I really can not figure out my priority list easily and make daily plan. So TasksRanking helps me!<br>
 By reading results of TasksRanking while making daily plan, I never feel stress even when
-a lot of objectives coming to my life concurrently! As a lover of Math, I'm so happy to see my loved Math helps me everyday!!!
+a lot of objectives come to my life concurrently! As a lover of Math, I'm so happy to see my loved Math helps me everyday!!!
 </p>
 
 <h1>Enjoy It!</h1>
