@@ -44,12 +44,12 @@ Pretty simple and amazing right? This means as a young man my priority list is:<
 <!-- Explain the algorithm and include the Math formula. -->
 T: Set of tasks<br>
 G: Set of goals<br>
-t: a task, {t | t ∈ T}<br>
-g: a goal, {g | g ∈ G}<br>
-c(t): cost of tast t<br>
-r(g): revenue of goal g<br>
-m(t, g): impact of task t on goal g<br>
-p(t): profit gained by performing task t<br>
+t: A task, {t | t ∈ T}<br>
+g: A goal, {g | g ∈ G}<br>
+c(t): Cost of tast t<br>
+r(g): Revenue of goal g<br>
+m(t, g): Impact of task t on goal g<br>
+p(t): Profit gained by performing task t<br>
 <br>
 Then profit of ith task t_i is:<br>
 <img src="CalculateProfitOfTask.png" alt="Unable to show formula" width="400px"/>
