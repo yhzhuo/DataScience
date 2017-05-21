@@ -27,7 +27,7 @@ task: learnCooking; revenue: 0.6696428571428572; cost:2.0; description: Learn to
 task: attendSocialActivities; revenue: 0.6629464285714279; cost:2.75; description: Attend off line social activities received from various sources.
 	impact 'gettingMarried:9.0' for 0.21428571428571427
 	impact 'formStableAndSolidSocialGroups:5.0' for 0.29687499999999994
-task: alwaysReadSocialInformation; revenue: -1.2477678571428572; cost:2.75; description: Form the habit of always read social related information various channels, and extract valuable information relate to social activities.
+task: alwaysReadSocialInformation; revenue: -1.2477678571428572; cost:2.75; description: Form the habit of always read social related information from various channels, and extract valuable information relate to social activities.
 	impact 'gettingMarried:9.0' for 0.07142857142857142
 	impact 'formStableAndSolidSocialGroups:5.0' for 0.171875
 </pre>

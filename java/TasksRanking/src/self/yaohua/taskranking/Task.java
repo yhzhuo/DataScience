@@ -62,6 +62,6 @@ public class Task {
 					.put(Goal.gettingMarried, 0.15)
 					.put(Goal.formStableAndSolidSocialGroups, 0.55)
 				.build(),
-				"Form the habit of always read social related information various channels, and extract valuable information relate to social activities."))
+				"Form the habit of always read social related information from various channels, and extract valuable information relate to social activities."))
 		.build();
 }
