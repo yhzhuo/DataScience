@@ -49,7 +49,7 @@ g: a goal, {g | g ∈ G}<br>
 c(t): cost of tast t<br>
 r(g): revenue of goal g<br>
 m(t, g): impact of task t on goal g<br>
-p(t): profit gaining from perform task t<br>
+p(t): profit gained by performing task t<br>
 <br>
 Then profit of ith task t_i is:<br>
 <img src="CalculateProfitOfTask.png" alt="Unable to show formula" width="400px"/>
