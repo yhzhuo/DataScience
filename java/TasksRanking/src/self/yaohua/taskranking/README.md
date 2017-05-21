@@ -42,6 +42,7 @@ Pretty simple and amazing right? This means as a young man my priorities are:<br
 <h3>How it works?</h3>
 <p>
 <!-- Explain the algorithm and include the Math formula. -->
+<img src="eq0016P.gif" alt="Unable to show formula"/>
 </p>
 <h3>How the value comes?</h3>
 <p>
