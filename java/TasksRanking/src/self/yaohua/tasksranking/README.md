@@ -52,7 +52,7 @@ m(t, g): Impact of task t on goal g<br>
 p(t): Profit gained by performing task t<br>
 <br>
 Then profit of ith task t_i is:<br>
-<img src="CalculateProfitOfTask.png" alt="Unable to show formula" width="400px"/>
+<img src="ProfitOfTask.png" alt="Unable to show formula" width="400px"/>
 </p>
 <h3>How the values come?</h3>
 <p>
