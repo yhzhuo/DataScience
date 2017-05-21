@@ -1,8 +1,9 @@
-// This is the code of Kaggle competition: Expedia Hotel Recommendations
-// It is a implementation of a Bayesian model.
-// https://www.kaggle.com/c/expedia-hotel-recommendations
-//
-// The code runs in Scala REPL.
+// <h1>Kaggle competition: Expedia Hotel Recommendations</h1>
+// Project: <a href="https://www.kaggle.com/c/expedia-hotel-recommendations">https://www.kaggle.com/c/expedia-hotel-recommendations</a><br><br>
+// <p>
+// The code implements a Bayesian model.<br>
+// It runs in Scala REPL.
+// </p>
 
 System.currentTimeMillis()
 var c = 1
