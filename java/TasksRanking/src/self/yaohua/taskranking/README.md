@@ -39,9 +39,19 @@ Pretty simple and amazing right? This means as a young man my priorities are:<br
 5. Attend social activities<br>
 6. Always read social information<br>
 </p>
-<h3>How it works?</h3>
+<h3>How it works? Explained in Math!</h3>
 <p>
 <!-- Explain the algorithm and include the Math formula. -->
+T: Set of tasks<br>
+G: Set of goals<br>
+t: a task, {t | t ∈ T}<br>
+g: a goal, {g | g ∈ G}<br>
+c(t): cost of tast t<br>
+r(g): revenue of goal g<br>
+i(t, g): impact of task t on goal g<br>
+p(t): profit gaining from perform task t<br>
+<br>
+Then profit of ith task t_i is:<br>
 <img src="eq0016P.gif" alt="Unable to show formula"/>
 </p>
 <h3>How the value comes?</h3>
