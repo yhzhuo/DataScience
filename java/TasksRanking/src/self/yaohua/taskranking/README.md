@@ -66,7 +66,7 @@ importance of Goals, hardship of Tasks, and relationships between Goals and Task
 The values help me to make comparison between all the Goals and all the Tasks. So when I'm overwhelmed by objectives, 
 I can still figure out my priorities very quick by only compare and adjust those values and run my algorithm!
 </p>
-<h3>How it changes my life?</h3>
+<h3>How it impacts my life?</h3>
 <p>
 In my real life, I have 19 goals and 41 tasks in total. I really can not figure out my priority list easily and make daily plan. So TasksRanking helps me!<br>
 By reading results of TasksRanking while making daily plan, I never feel stress even when
